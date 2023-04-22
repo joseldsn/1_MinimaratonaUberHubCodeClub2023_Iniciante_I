@@ -2,29 +2,28 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 
+	float x[8]; // Vetor
+	int contador = 0;
 
-   float x[8];
-   int contador = 0;
+	for (int i = 0; i < 8; i++)
+	{ // Loop - Laço de repetição
 
-   for (int i = 0; i < 8; i++){
+		cin >> x[i]; // Leitura do Vetor
+	}
 
-        cin >> x[i];
+	for (int i = 0; i < 8; i++)
+	{
 
-   }
+		if (x[i] > 1.80)
+		{
+			contador++;
+		}
+	}
 
-   for (int i = 0; i < 8; i++){
+	cout << contador << " jogadores encontrados" << endl;
 
-        if(x[i] > 1.80){
-            contador++;
-        }
-
-   }
-
-   cout << contador << " jogadores encontrados" << endl;
-
-
-
-    return 0;
+	return 0;
 }

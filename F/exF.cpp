@@ -5,21 +5,21 @@ using namespace std;
 int main()
 {
 
+	int x;
+	float y;
 
-    int x;
-    float y;
+	cin >> y;
+	cin >> x;
 
-    cin >> y;
-    cin >> x;
+	if (y >= 1.60 || x >= 18)
+	{
 
-    if(y >= 1.60 || x >= 18)
-    {
+		cout << "Pode andar de montanha russa" << endl;
+	}
+	else
+	{
+		cout << "Nao pode andar de montanha russa" << endl;
+	}
 
-    cout << "Pode andar de montanha russa" << endl;
-    }
-    else{
-         cout << "Nao pode andar de montanha russa" << endl;
-    }
-
-    return 0;
+	return 0;
 }

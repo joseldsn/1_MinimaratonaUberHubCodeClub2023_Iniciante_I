@@ -5,25 +5,23 @@ using namespace std;
 int main()
 {
 
+	int x;
 
-    int x;
+	cin >> x;
 
-    cin >> x;
+	if (x > 0)
+	{
 
-    if(x > 0)
-    {
+		for (int i = 0; i < x; i++)
+		{
 
-        for(int i = 0; i < x; i++)
-        {
+			if (i % 2 == 1 && i % 3 == 0)
+			{
 
-            if(i % 2 == 1 && i % 3 == 0)
-            {
+				cout << i << endl;
+			}
+		}
+	}
 
-                cout << i << endl;
-            }
-        }
-
-    }
-
-    return 0;
+	return 0;
 }

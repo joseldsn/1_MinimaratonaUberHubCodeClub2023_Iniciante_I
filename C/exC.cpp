@@ -2,22 +2,18 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 
+	int cantarPneu;
 
+	cin >> cantarPneu;
 
-   int cantarPneu;
+	for (int i = 0; i < cantarPneu; i++)
+	{
 
-   cin >> cantarPneu;
+		cout << "Pneu" << endl;
+	}
 
-   for (int i = 0; i < cantarPneu; i++){
-
-         cout << "Pneu" << endl;
-
-   }
-
-
-
-
-    return 0;
+	return 0;
 }

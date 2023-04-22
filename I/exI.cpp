@@ -2,20 +2,24 @@
 
 using namespace std;
 
-int main(){
-    int x, y , z;
+int main()
+{
+	int x, y, z;
 
-    cin >> x >> y >> z;
+	cin >> x >> y >> z;
 
-    int porcentagem;
+	int porcentagem;
 
-    porcentagem = (y * 100) / x;
+	porcentagem = (y * 100) / x;
 
-    if(porcentagem < z){
-        cout << "UdiCity esta em perigo, vamos de LockDalson!!!" <<endl;
-    }
-    else{ cout << "UdiCity esta segura!!!" <<endl;}
+	if (porcentagem < z)
+	{
+		cout << "UdiCity esta em perigo, vamos de LockDalson!!!" << endl;
+	}
+	else
+	{
+		cout << "UdiCity esta segura!!!" << endl;
+	}
 
-
-    return 0;
+	return 0;
 }
